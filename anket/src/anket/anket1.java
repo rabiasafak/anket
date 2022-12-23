@@ -57,7 +57,7 @@ public class anket1 {
 			}
 			veri.add(cvp5);
 
-			System.out.println("devam için bir tuslayin");
+			System.out.println("devam için bir,durmak icin herhangi bir tusu tuslayin");
 			dongu = scan.nextInt();
 
 			if (dongu!=1) {
@@ -138,9 +138,9 @@ public class anket1 {
 			min = sum5;
 		}
 
-		System.out.println("--------|--------|--------|------|--------|---------|");
+		System.out.println("       -        -         -      -        -         \n  ");
 		System.out.printf("Ortalama|  %.2f  |  %.2f  | %.2f |  %.2f  |  %.2f   |\n", ort1, ort2, ort3, ort4, ort5);
-		System.out.println("--------|--------|--------|------|--------|---------|");
+		System.out.println("       -        -        -       -       -         -" );
 		if (max == sum1) {
 			System.out.println("En Cok Oy Alan: Alım Gucu " + sum1);
 		} else if (max == sum2) {
@@ -164,7 +164,6 @@ public class anket1 {
 		} else if (min == sum5) {
 			System.out.println("En Az Oy Alan: Gocmen " + sum5);
 		}
-
 	}
 
 }
